@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="weather-app">
+      <form action="" class="serarch-form">
+        <input
+          type="text"
+          class="city-input"
+          placeholder="Enter Your City Name"
+        />
+      </form>
+      <button class="search-btn">
+        <i class="material-icon">Search</i>
+      </button>
+      <div class="city-data-section">
+        <h2 class="city"></h2>
+        <p class="date"></p>
+      </div>
+      <div class="temperature-info">
+        <div class="description">
+          <i class="material-icon">Weather</i>
+          <span class="description-text"></span>
+        </div>
+        <div class="temp">20°</div>
+      </div>
+      <div class="additional-info">
+        <div class="wind-info">
+          <div class="i">
+            <img src="img/wind.png" alt="Wind" />
+          </div>
+          <div>
+            <h3 class="wind-speed">KM/H</h3>
+            <p class="wind-label">Speed</p>
+          </div>
+        </div>
+        <div class="humidity-info">
+          <div class="i">
+            <img src="img/humidity.png" alt="Humidity" />
+          </div>
+          <div>
+            <h3 class="humidity">%</h3>
+            <p class="humidityy">Humidity</p>
+          </div>
+        </div>
+        <div class="visibility-info">
+          <div class="i">
+            <img src="img/haze.png" alt="Visibility" />
+          </div>
+          <div>
+            <h3 class="visibility">KM</h3>
+            <p class="viewport">Visibility</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

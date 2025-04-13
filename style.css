@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.1rem;
+}
+
+.weather-app {
+  background-color: rgba(255, 255, 255, 0.85);
+  width: 35%;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-top: .7rem;
+  font-size: 2.4rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+p.date {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.serarch-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+  outline: none;
+  color: #333;
+}
+
+.city-input:focus {
+  border-color: #007bff;
+}
+
+.search-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.material-icon {
+  font-size: 1rem;
+}
+
+.temperature-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #333;
+}
+
+.description i {
+  font-size: 2.5rem;
+  margin-right: 15px;
+  color: #ff9900;
+}
+
+.temp {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.additional-info div {
+  text-align: center;
+}
+
+.additional-info img {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(12%) sepia(33%) saturate(313%)
+    hue-rotate(192deg) brightness(97%) contrast(93%);
+  display: block;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+.wind-info,
+.humidity-info,
+.visibility-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.wind-info div,
+.humidity-info div,
+.visibility-info div {
+  margin-left: 10px;
+}
+
+.wind-speed,
+.humidity,
+.visibility {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.wind-label,
+.humidityy,
+.viewport {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
